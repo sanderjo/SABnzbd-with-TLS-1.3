@@ -3,6 +3,12 @@ SABnzbd with TLS 1.3, both client and server (Docker image)
 
 ## Build
 
+Straight from github:
+```
+sudo docker build -t="sabnzbd-with-tls13"  https://github.com/sanderjo/SABnzbd-with-TLS-1.3.git
+
+```
+Or, after a "git clone":
 ```
 sudo docker build --no-cache -t="sabnzbd-with-tls13" .
 ```
