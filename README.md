@@ -1,4 +1,4 @@
-# SABnzbd-with-TLS-1.3
+# Docker image with SABnzbd-with-TLS-1.3
 SABnzbd with TLS 1.3, both client and server (Docker image)
 
 ## Build
@@ -16,3 +16,5 @@ sudo docker run -p 8080:8080 --name sabnzbd sabnzbd-with-tls13
 via http:// < IP-address > :8080/
 
 After enabling HTTPS in SABnzbd, access via https:// < IP-address > :8080/
+
+Note: the cert/key are self-signed, so Chrome and Firefox will complain about the connection to SABnzbd.
