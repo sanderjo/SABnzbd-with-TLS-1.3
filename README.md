@@ -3,7 +3,7 @@ SABnzbd with TLS 1.3, both client and server (Docker image)
 
 ## Build
 
-sudo docker build --no-cache -t="SABnzbd-with-TLS13" .
+sudo docker build --no-cache -t="sabnzbd-with-tls13" .
 
 ## Run
 
