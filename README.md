@@ -11,4 +11,4 @@ sudo docker run -p 8080:8080 --name sabnzbd sabnzbd-with-tls13
 
 ## Access
 
-via http://<IP-address>:8080
+via http:// < IP-address > :8080/
